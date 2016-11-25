@@ -14,8 +14,7 @@ RUN apt-get update -q && apt-get install -yq --no-install-recommends curl apt-tr
     && echo deb https://apt.dockerproject.org/repo debian-jessie main > /etc/apt/sources.list.d/docker.list \
     && apt-get update \
     && apt-get install -y docker-engine \
-    && rm -rf /var/lib/apt/lists/* \
-    && docker version
+    && rm -rf /var/lib/apt/lists/*
 
 RUN curl -o /usr/local/bin/docker-compose -L "https://github.com/docker/compose/releases/download/${COMPOSE_VERSION}/docker-compose-`uname -s`-`uname -m`" \
 	&& chmod +x /usr/local/bin/docker-compose \
