@@ -1,4 +1,4 @@
-An image with Docker, Docker Machine and Docker Compose
+A Docker image with Docker, Docker Machine and Docker Compose
 ===========================================
 
 Purpose
