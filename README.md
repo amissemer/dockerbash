@@ -9,5 +9,14 @@ Provide a way for Windows users to use Bash scripts along with docker, docker-co
 Usage
 ----
 
-docker run -it -v C:\Users\xxxx\workdirectory:/home/dockerbash amissemer/dockerbash
+From a directory under your home directory C:\Users\<userID>\ run:
+	
+	docker run -it -v %cd%:/home/dockerbash amissemer/dockerbash
 
+You will then be logged into the Bash shell of the container and have visibility on the files of the current directory your started the command from.
+
+Note
+----
+
+With Docker for Windows, you need to enable the sharing of the drive you want to use, in Docker settings (accessible from the system tray).
+The Docker Toolbox tries to share your home directory automatically.
