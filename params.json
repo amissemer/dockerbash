@@ -1,0 +1,6 @@
+{
+  "name": "Dockerbash",
+  "tagline": "A Docker image with Docker, Docker Machine and Docker Compose",
+  "body": "A Docker image with Docker, Docker Machine and Docker Compose\r\n===========================================\r\n\r\nPurpose\r\n----\r\n\r\nProvide a way for Windows users to use Bash scripts along with docker, docker-compose and docker-machine commands.\r\n\r\nUsage\r\n----\r\n\r\nFrom a directory under your home directory C:\\Users\\<userID>\\ run:\r\n\t\r\n\tdocker run -it -v %cd%:/home/dockerbash amissemer/dockerbash\r\n\r\nYou will then be logged into the Bash shell of the container and have visibility on the files of the current directory you started the command from.\r\n\r\nNote\r\n----\r\n\r\n* With Docker for Windows, you need to enable the sharing of the drive you want to use, in Docker settings (accessible from the system tray).\r\n* The Docker Toolbox tries to share your home directory automatically, but you're limited to subdirectories of your home directory.\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
