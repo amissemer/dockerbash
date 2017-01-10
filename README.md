@@ -4,7 +4,8 @@ A Docker image with Docker, Docker Machine and Docker Compose
 Purpose
 ----
 
-Provide a way for Windows users to use Bash scripts along with docker, docker-compose and docker-machine commands.
+Provide a way for Windows users to use Bash scripts along with docker, docker-compose and docker-machine commands (`latest` default tag).
+The AWS CLI is also included in the `aws` tagged image.
 
 Usage
 ----
