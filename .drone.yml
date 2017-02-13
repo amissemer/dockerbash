@@ -1,0 +1,6 @@
+pipeline:
+  build-image:
+    image: plugins/docker
+    repo: dockerbash
+    tags: latest
+    
